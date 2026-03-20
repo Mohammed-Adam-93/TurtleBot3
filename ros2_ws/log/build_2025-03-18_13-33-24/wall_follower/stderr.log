@@ -1,0 +1,5 @@
+  File "/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower/service_client.py", line 45
+    result_cleaned = [{'x' = p.x, 'y' = p.y, 'theta' = p.z} for p in result]
+                           ^
+SyntaxError: invalid syntax
+

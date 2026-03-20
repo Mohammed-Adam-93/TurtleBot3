@@ -1,0 +1,8 @@
+[console_scripts]
+laserScan_test_executable = wall_follower.laserScan_test:main
+odom_recorder_executable = wall_follower.odom_recorder:main
+server_client_executable = wall_follower.service_client:main
+wall_finder_executable = wall_follower.wall_finder:main
+wall_finder_executable_2 = wall_follower.wall_finder_2:main
+wall_follower_executable = wall_follower.wall_following:main
+

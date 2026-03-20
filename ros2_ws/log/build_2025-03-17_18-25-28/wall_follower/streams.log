@@ -1,0 +1,29 @@
+[1.011s] Invoking command in '/home/user/ros2_ws/src/wall_follower': PYTHONPATH=/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/user/ros2_ws/build/wall_follower/build install --prefix /home/user/ros2_ws/install/wall_follower --record /home/user/ros2_ws/build/wall_follower/install.log --single-version-externally-managed
+[2.029s] running egg_info
+[2.029s] writing ../../build/wall_follower/wall_follower.egg-info/PKG-INFO
+[2.032s] writing dependency_links to ../../build/wall_follower/wall_follower.egg-info/dependency_links.txt
+[2.032s] writing entry points to ../../build/wall_follower/wall_follower.egg-info/entry_points.txt
+[2.032s] writing requirements to ../../build/wall_follower/wall_follower.egg-info/requires.txt
+[2.032s] writing top-level names to ../../build/wall_follower/wall_follower.egg-info/top_level.txt
+[2.211s] reading manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+[2.214s] writing manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+[2.215s] running build
+[2.215s] running build_py
+[2.215s] copying wall_follower/odom_recorder.py -> /home/user/ros2_ws/build/wall_follower/build/lib/wall_follower
+[2.216s] running install
+[2.218s] running install_lib
+[2.221s] copying /home/user/ros2_ws/build/wall_follower/build/lib/wall_follower/odom_recorder.py -> /home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower
+[2.222s] byte-compiling /home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower/odom_recorder.py to odom_recorder.cpython-38.pyc
+[2.224s] running install_data
+[2.227s] running install_egg_info
+[2.234s] removing '/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower-0.0.0-py3.8.egg-info' (and everything under it)
+[2.235s] Copying ../../build/wall_follower/wall_follower.egg-info to /home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower-0.0.0-py3.8.egg-info
+[2.237s] running install_scripts
+[2.325s] Installing laserScan_test_executable script to /home/user/ros2_ws/install/wall_follower/lib/wall_follower
+[2.327s] Installing odom_recorder_executable script to /home/user/ros2_ws/install/wall_follower/lib/wall_follower
+[2.329s] Installing server_client_executable script to /home/user/ros2_ws/install/wall_follower/lib/wall_follower
+[2.329s] Installing wall_finder_executable script to /home/user/ros2_ws/install/wall_follower/lib/wall_follower
+[2.332s] Installing wall_finder_executable_2 script to /home/user/ros2_ws/install/wall_follower/lib/wall_follower
+[2.333s] Installing wall_follower_executable script to /home/user/ros2_ws/install/wall_follower/lib/wall_follower
+[2.338s] writing list of installed files to '/home/user/ros2_ws/build/wall_follower/install.log'
+[2.448s] Invoked command in '/home/user/ros2_ws/src/wall_follower' returned '0': PYTHONPATH=/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/user/ros2_ws/build/wall_follower/build install --prefix /home/user/ros2_ws/install/wall_follower --record /home/user/ros2_ws/build/wall_follower/install.log --single-version-externally-managed

@@ -1,0 +1,25 @@
+[0.026s] Invoking command in '/home/user/ros2_ws/build/project_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/project_interfaces -- -j8 -l8
+[2.141s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.263s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.263s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.757s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.893s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.904s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.675s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.683s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.106s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.170s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.193s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[4.193s]   rosidl_generate_interfaces() the passed file 'msg/MyPoint32.msg' doesn't
+[4.193s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[4.193s]   '/home/user/ros2_ws/src/project_interfaces'
+[4.194s] Call Stack (most recent call first):
+[4.194s]   CMakeLists.txt:24 (rosidl_generate_interfaces)
+[4.194s] 
+[4.194s] 
+[4.196s] -- Configuring incomplete, errors occurred!
+[4.196s] See also "/home/user/ros2_ws/build/project_interfaces/CMakeFiles/CMakeOutput.log".
+[4.196s] See also "/home/user/ros2_ws/build/project_interfaces/CMakeFiles/CMakeError.log".
+[4.213s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[4.216s] Invoked command in '/home/user/ros2_ws/build/project_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/project_interfaces -- -j8 -l8

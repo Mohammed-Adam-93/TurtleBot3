@@ -1,0 +1,15 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/project_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/project_interfaces/action/detail/dds_fastrtps/odom_record__type_support.cpp.o"
+  "CMakeFiles/project_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/project_interfaces/srv/detail/dds_fastrtps/find_wall__type_support.cpp.o"
+  "libproject_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libproject_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/project_interfaces/action/detail/dds_fastrtps/odom_record__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/project_interfaces/action/detail/odom_record__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/project_interfaces/srv/detail/dds_fastrtps/find_wall__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/project_interfaces/srv/detail/find_wall__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/project_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

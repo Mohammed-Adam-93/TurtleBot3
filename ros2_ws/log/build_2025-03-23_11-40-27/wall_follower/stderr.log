@@ -1,0 +1,5 @@
+  File "/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower/wall_finder.py", line 44
+    if self.front_distance == 0.0 and self.side_distance == 0.0 and self.closest_dis = 0.0:
+                                                                                     ^
+SyntaxError: invalid syntax
+

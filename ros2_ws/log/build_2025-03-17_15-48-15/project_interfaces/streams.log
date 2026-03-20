@@ -1,0 +1,249 @@
+[0.025s] Invoking command in '/home/user/ros2_ws/build/project_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/project_interfaces -- -j8 -l8
+[0.064s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.101s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.101s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.461s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.523s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.775s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.843s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.844s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.049s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.096s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.146s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.586s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.125s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.357s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.358s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.601s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.602s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.602s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.707s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.761s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.766s] -- Added test 'lint_cmake' to check CMake code style
+[2.770s] -- Added test 'xmllint' to check XML markup files
+[2.859s] -- Configuring done
+[3.417s] -- Generating done
+[3.423s] -- Build files have been written to: /home/user/ros2_ws/build/project_interfaces
+[3.463s] [35m[1mScanning dependencies of target project_interfaces__cpp[0m
+[3.490s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.196s] [  2%] Built target project_interfaces__cpp
+[4.215s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.008s] [35m[1mScanning dependencies of target project_interfaces__rosidl_generator_c[0m
+[5.130s] [  7%] [32mBuilding C object CMakeFiles/project_interfaces__rosidl_generator_c.dir/rosidl_generator_c/project_interfaces/srv/detail/find_wall__functions.c.o[0m
+[9.819s] [ 10%] [32mBuilding C object CMakeFiles/project_interfaces__rosidl_generator_c.dir/rosidl_generator_c/project_interfaces/action/detail/odom_record__functions.c.o[0m
+[9.931s] [ 12%] [32m[1mLinking C shared library libproject_interfaces__rosidl_generator_c.so[0m
+[10.696s] [ 12%] Built target project_interfaces__rosidl_generator_c
+[10.715s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.273s] [35m[1mScanning dependencies of target project_interfaces__rosidl_typesupport_introspection_cpp[0m
+[11.384s] [ 17%] [32mBuilding CXX object CMakeFiles/project_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/project_interfaces/srv/detail/find_wall__type_support.cpp.o[0m
+[16.643s] [ 20%] [32mBuilding CXX object CMakeFiles/project_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/project_interfaces/action/detail/odom_record__type_support.cpp.o[0m
+[17.130s] [ 23%] [32m[1mLinking CXX shared library libproject_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[17.324s] [ 23%] Built target project_interfaces__rosidl_typesupport_introspection_cpp
+[17.341s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.903s] [35m[1mScanning dependencies of target project_interfaces__rosidl_typesupport_introspection_c[0m
+[17.935s] [ 28%] [32mBuilding C object CMakeFiles/project_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/project_interfaces/srv/detail/find_wall__type_support.c.o[0m
+[17.983s] [ 30%] [32mBuilding C object CMakeFiles/project_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/project_interfaces/action/detail/odom_record__type_support.c.o[0m
+[18.052s] [ 33%] [32m[1mLinking C shared library libproject_interfaces__rosidl_typesupport_introspection_c.so[0m
+[18.099s] [ 33%] Built target project_interfaces__rosidl_typesupport_introspection_c
+[18.120s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.549s] [35m[1mScanning dependencies of target project_interfaces__rosidl_typesupport_c[0m
+[18.581s] [ 38%] [32mBuilding CXX object CMakeFiles/project_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/project_interfaces/srv/find_wall__type_support.cpp.o[0m
+[18.639s] [ 41%] [32mBuilding CXX object CMakeFiles/project_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/project_interfaces/action/odom_record__type_support.cpp.o[0m
+[18.717s] [ 43%] [32m[1mLinking CXX shared library libproject_interfaces__rosidl_typesupport_c.so[0m
+[18.784s] [ 43%] Built target project_interfaces__rosidl_typesupport_c
+[18.804s] [ 46%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.479s] [35m[1mScanning dependencies of target project_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[19.513s] [ 48%] [32mBuilding CXX object CMakeFiles/project_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/project_interfaces/srv/detail/dds_fastrtps/find_wall__type_support.cpp.o[0m
+[20.370s] [ 51%] [32mBuilding CXX object CMakeFiles/project_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/project_interfaces/action/detail/dds_fastrtps/odom_record__type_support.cpp.o[0m
+[21.056s] [ 53%] [32m[1mLinking CXX shared library libproject_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.189s] [ 53%] Built target project_interfaces__rosidl_typesupport_fastrtps_cpp
+[21.207s] [ 56%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[21.617s] [35m[1mScanning dependencies of target project_interfaces__rosidl_typesupport_cpp[0m
+[21.638s] [ 58%] [32mBuilding CXX object CMakeFiles/project_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/project_interfaces/srv/find_wall__type_support.cpp.o[0m
+[22.016s] [ 61%] [32mBuilding CXX object CMakeFiles/project_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/project_interfaces/action/odom_record__type_support.cpp.o[0m
+[22.418s] [ 64%] [32m[1mLinking CXX shared library libproject_interfaces__rosidl_typesupport_cpp.so[0m
+[22.478s] [ 64%] Built target project_interfaces__rosidl_typesupport_cpp
+[22.497s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.134s] [35m[1mScanning dependencies of target project_interfaces__rosidl_typesupport_fastrtps_c[0m
+[23.165s] [ 69%] [32mBuilding CXX object CMakeFiles/project_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/project_interfaces/srv/detail/find_wall__type_support_c.cpp.o[0m
+[23.644s] [ 71%] [32mBuilding CXX object CMakeFiles/project_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/project_interfaces/action/detail/odom_record__type_support_c.cpp.o[0m
+[24.170s] [ 74%] [32m[1mLinking CXX shared library libproject_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[24.296s] [ 74%] Built target project_interfaces__rosidl_typesupport_fastrtps_c
+[24.324s] [ 74%] Built target project_interfaces
+[24.339s] [35m[1mScanning dependencies of target project_interfaces__py[0m
+[24.357s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[25.850s] [ 76%] Built target project_interfaces__py
+[25.910s] [35m[1mScanning dependencies of target project_interfaces__python[0m
+[25.940s] [ 79%] [32mBuilding C object CMakeFiles/project_interfaces__python.dir/rosidl_generator_py/project_interfaces/srv/_find_wall_s.c.o[0m
+[26.900s] [ 82%] [32mBuilding C object CMakeFiles/project_interfaces__python.dir/rosidl_generator_py/project_interfaces/action/_odom_record_s.c.o[0m
+[27.116s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/project_interfaces/libproject_interfaces__python.so[0m
+[27.199s] [ 84%] Built target project_interfaces__python
+[27.221s] [35m[1mScanning dependencies of target project_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[27.250s] [ 87%] [32mBuilding C object CMakeFiles/project_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/project_interfaces/_project_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[27.419s] [ 89%] [32m[1mLinking CXX shared library rosidl_generator_py/project_interfaces/project_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[27.545s] [ 89%] Built target project_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[27.565s] [35m[1mScanning dependencies of target project_interfaces__rosidl_typesupport_c__pyext[0m
+[27.590s] [ 92%] [32mBuilding C object CMakeFiles/project_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/project_interfaces/_project_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[27.744s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/project_interfaces/project_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[27.830s] [ 94%] Built target project_interfaces__rosidl_typesupport_c__pyext
+[27.849s] [35m[1mScanning dependencies of target project_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[27.879s] [ 97%] [32mBuilding C object CMakeFiles/project_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/project_interfaces/_project_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[28.049s] [100%] [32m[1mLinking C shared library rosidl_generator_py/project_interfaces/project_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[28.116s] [100%] Built target project_interfaces__rosidl_typesupport_introspection_c__pyext
+[28.132s] Invoked command in '/home/user/ros2_ws/build/project_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/project_interfaces -- -j8 -l8
+[28.364s] Invoking command in '/home/user/ros2_ws/build/project_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/project_interfaces
+[28.376s] -- Install configuration: ""
+[28.376s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/ament_index/resource_index/rosidl_interfaces/project_interfaces
+[28.377s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces
+[28.377s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv
+[28.377s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail
+[28.377s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__functions.h
+[28.377s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__functions.c
+[28.378s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__struct.h
+[28.378s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__type_support.h
+[28.378s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/find_wall.h
+[28.378s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/msg
+[28.378s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/msg/rosidl_generator_c__visibility_control.h
+[28.378s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action
+[28.378s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail
+[28.378s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__functions.c
+[28.379s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__functions.h
+[28.379s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__type_support.h
+[28.379s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__struct.h
+[28.379s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/odom_record.h
+[28.380s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/environment/library_path.sh
+[28.380s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/environment/library_path.dsv
+[28.380s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_generator_c.so
+[28.381s] -- Set runtime path of "/home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_generator_c.so" to ""
+[28.381s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces
+[28.381s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv
+[28.381s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail
+[28.381s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__rosidl_typesupport_fastrtps_c.h
+[28.385s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/msg
+[28.385s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[28.385s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action
+[28.386s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail
+[28.386s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__rosidl_typesupport_fastrtps_c.h
+[28.386s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_typesupport_fastrtps_c.so
+[28.386s] -- Set runtime path of "/home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[28.386s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces
+[28.386s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv
+[28.386s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail
+[28.386s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/dds_fastrtps
+[28.386s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__rosidl_typesupport_fastrtps_cpp.hpp
+[28.386s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/msg
+[28.387s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[28.387s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action
+[28.387s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail
+[28.387s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__rosidl_typesupport_fastrtps_cpp.hpp
+[28.387s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/dds_fastrtps
+[28.388s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[28.388s] -- Set runtime path of "/home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[28.388s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces
+[28.388s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv
+[28.388s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail
+[28.388s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__type_support.c
+[28.388s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__rosidl_typesupport_introspection_c.h
+[28.388s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/msg
+[28.388s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[28.388s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action
+[28.389s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail
+[28.389s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__type_support.c
+[28.389s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__rosidl_typesupport_introspection_c.h
+[28.394s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_typesupport_introspection_c.so
+[28.394s] -- Set runtime path of "/home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[28.394s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_typesupport_c.so
+[28.394s] -- Set runtime path of "/home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_typesupport_c.so" to ""
+[28.394s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces
+[28.395s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv
+[28.395s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail
+[28.395s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__struct.hpp
+[28.395s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__builder.hpp
+[28.395s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__traits.hpp
+[28.395s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/find_wall.hpp
+[28.395s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action
+[28.396s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail
+[28.396s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__traits.hpp
+[28.396s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__struct.hpp
+[28.397s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__builder.hpp
+[28.399s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/odom_record.hpp
+[28.399s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces
+[28.400s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv
+[28.400s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail
+[28.400s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__type_support.cpp
+[28.400s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/srv/detail/find_wall__rosidl_typesupport_introspection_cpp.hpp
+[28.400s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action
+[28.400s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail
+[28.400s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__rosidl_typesupport_introspection_cpp.hpp
+[28.401s] -- Installing: /home/user/ros2_ws/install/project_interfaces/include/project_interfaces/action/detail/odom_record__type_support.cpp
+[28.403s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_typesupport_introspection_cpp.so
+[28.404s] -- Set runtime path of "/home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[28.406s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_typesupport_cpp.so
+[28.407s] -- Set runtime path of "/home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__rosidl_typesupport_cpp.so" to ""
+[28.407s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/environment/pythonpath.sh
+[28.408s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/environment/pythonpath.dsv
+[28.408s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/__init__.py
+[28.471s] Compiling '/home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/__init__.py'...
+[28.477s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/srv
+[28.479s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/srv/_find_wall.py
+[28.480s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/srv/__init__.py
+[28.480s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/srv/_find_wall_s.c
+[28.480s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/action
+[28.480s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/action/__init__.py
+[28.480s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/action/_odom_record_s.c
+[28.480s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/action/_odom_record.py
+[28.481s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/project_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[28.482s] -- Set runtime path of "/home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/project_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[28.483s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/project_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[28.484s] -- Set runtime path of "/home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/project_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[28.485s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/project_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[28.485s] -- Set runtime path of "/home/user/ros2_ws/install/project_interfaces/lib/python3.8/site-packages/project_interfaces/project_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[28.486s] -- Installing: /home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__python.so
+[28.487s] -- Set runtime path of "/home/user/ros2_ws/install/project_interfaces/lib/libproject_interfaces__python.so" to ""
+[28.487s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/srv/FindWall.idl
+[28.488s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/action/OdomRecord.idl
+[28.488s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/srv/FindWall.srv
+[28.488s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/srv/FindWall_Request.msg
+[28.488s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/srv/FindWall_Response.msg
+[28.489s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/action/OdomRecord.action
+[28.489s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/ament_index/resource_index/package_run_dependencies/project_interfaces
+[28.489s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/ament_index/resource_index/parent_prefix_path/project_interfaces
+[28.489s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/environment/ament_prefix_path.sh
+[28.489s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/environment/ament_prefix_path.dsv
+[28.490s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/environment/path.sh
+[28.490s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/environment/path.dsv
+[28.490s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/local_setup.bash
+[28.491s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/local_setup.sh
+[28.491s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/local_setup.zsh
+[28.491s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/local_setup.dsv
+[28.491s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/package.dsv
+[28.491s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/ament_index/resource_index/packages/project_interfaces
+[28.492s] -- Old export file "/home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[28.492s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_generator_cExport.cmake
+[28.492s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_generator_cExport-noconfig.cmake
+[28.492s] -- Old export file "/home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[28.492s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[28.492s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[28.493s] -- Old export file "/home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[28.493s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_cExport.cmake
+[28.493s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[28.493s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_generator_cppExport.cmake
+[28.493s] -- Old export file "/home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[28.493s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[28.494s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[28.495s] -- Old export file "/home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[28.495s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_cppExport.cmake
+[28.496s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[28.496s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/rosidl_cmake-extras.cmake
+[28.496s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.496s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[28.497s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[28.497s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.497s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[28.497s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[28.497s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfacesConfig.cmake
+[28.497s] -- Up-to-date: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/cmake/project_interfacesConfig-version.cmake
+[28.497s] -- Installing: /home/user/ros2_ws/install/project_interfaces/share/project_interfaces/package.xml
+[28.500s] Invoked command in '/home/user/ros2_ws/build/project_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/project_interfaces
