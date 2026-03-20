@@ -25,7 +25,7 @@ The action records the [x, y, z] coordinates, each second, that the robot came a
 ![TurtleBot3_Action_server](Images/Action_Server.png)
 
 # Challenges 
--Procedural programming was messy and hard to debug. Object oriented programmign was the solution to orginze the code and make eay to be understood.<b>
+-Procedural programming was messy and hard to debug. Object oriented programmign was the solution to orginze the code and make eay to be understood.<b>  
 -PID controller proved to be hard to be tuned manually. A better approach would be to use PID-Tuner software.<b>
 
 # Demo in simulation
