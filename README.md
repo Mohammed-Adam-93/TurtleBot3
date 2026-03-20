@@ -26,9 +26,10 @@ The action records the [x, y, z] coordinates, each second, that the robot came a
 
 # Challenges 
 -Procedural programming was messy and hard to debug. Object oriented programmign was the solution to orginze the code and make eay to be understood.<b>
-- PID controller proved to be hard to be tuned manually. A better approach would be to use PID-Tuner software.<b>
+-PID controller proved to be hard to be tuned manually. A better approach would be to use PID-Tuner software.<b>
 
 # Demo in simulation
-
+https://github.com/user-attachments/assets/ae10a0d1-7d69-4f9b-94b2-501f9c5f5312
 
 # Demo in real robot
+https://github.com/user-attachments/assets/60fa9316-c072-4670-b1e6-fdf333311a35
